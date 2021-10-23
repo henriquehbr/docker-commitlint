@@ -24,7 +24,7 @@ docker pull henriquehbr/commitlint
 
 ## Usage
 
-In order to lint your commit messages, you must create a `pre-commit`
+In order to lint your commit messages, you must create a `commit-msg`
 Git hook script, just like the one below:
 
 ```sh

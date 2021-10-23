@@ -4,4 +4,6 @@ RUN npm i -g commitlint
 
 WORKDIR /app
 
-CMD ["sh", "-c", "npm i && commitlint"]
+COPY start /
+
+ENTRYPOINT ["./start"]
