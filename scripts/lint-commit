@@ -1,0 +1,5 @@
+#!/bin/sh
+
+project_root_directory=$(dirname $(npm root))
+
+docker run --rm -i -v $PWD:/app henriquehbr/commitlint < $project_root_directory/.git/COMMIT_EDITMSG

@@ -1,0 +1,11 @@
+{
+  "scripts": {
+    "lint-dockerfile": "./scripts/lint-dockerfile",
+    "build-dockerfile": "./scripts/build-dockerfile",
+    "prepare": "husky install"
+  },
+  "devDependencies": {
+    "@commitlint/config-conventional": "^13.2.0",
+    "husky": "^7.0.4"
+  }
+}

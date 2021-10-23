@@ -1,0 +1,5 @@
+#!/bin/sh
+
+project_root_directory=$(dirname $(npm root))
+
+docker run --rm -i hadolint/hadolint:latest-alpine < $project_root_directory/Dockerfile
