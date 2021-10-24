@@ -1,6 +1,3 @@
-# allows running scripts directly
-export PATH := scripts:$(PATH)
-
 .DEFAULT_GOAL := init
 
 init: setup-git-hooks get-hadolint-docker-img
