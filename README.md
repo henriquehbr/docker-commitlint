@@ -30,7 +30,7 @@ Git hook script, just like the one below:
 ```sh
 #!/bin/sh
 
-docker run --rm -i -v $PWD:/app henriquehbr/commitlint < .git/COMMIT_EDITMSG
+docker run --rm -i -v $PWD:/app henriquehbr/commitlint
 ```
 
 - The `--rm` flag cleans up the container and removes the file system on exit
