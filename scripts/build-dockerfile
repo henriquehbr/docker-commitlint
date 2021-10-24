@@ -1,5 +1,0 @@
-#!/bin/sh
-
-project_root_directory=$(dirname $(npm root))
-
-DOCKER_BUILDKIT=1 docker build --compress -t henriquehbr/commitlint $project_root_directory

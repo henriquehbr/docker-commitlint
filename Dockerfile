@@ -6,4 +6,4 @@ WORKDIR /app
 
 COPY start /
 
-ENTRYPOINT ["./start"]
+CMD ["./start"]
